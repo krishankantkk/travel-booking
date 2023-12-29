@@ -68,3 +68,71 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# Travel-booking 
+
+## Introduction 
+created a travel booking in reactjs and TailwindCSS
+
+
+## Tools
+
+The following tools help make easier to work with sample code.
+
+- [git](https://git-scm.com/downloads): A tool for managing source code
+- [Visual Studio Code](https://code.visualstudio.com/): A source code editor
+- [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer): A simple web server utility for Visual Studio Code
+
+
+## Setup in your local machine by following steps
+
+If you installed git you can clone the code to your machine, or download a ZIP of all the files directly.
+, or run the following [git](https://git-scm.com/downloads) command to clone the files to your machine:
+
+```bash
+git clone https://github.com/krishankantkk/travel-booking.git
+```
+
+- Once the files are on your machine, open the _html-css-javascript-getting-started_ folder in [Visual Studio Code](https://code.visualstudio.com/).
+
+- With the files open in Visual Studio Code, press the **Go Live** button at the bottom of the window to launch the files with [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
+
+## Contributing
+
+If you want to contribute to this project, please fork the repository and create a pull request with your changes. We welcome contributions and improvements.
+
+## Contact
+If you have any questions or need further assistance, feel free to contact the project owner:
+Krishan Kant
+Email: kantk1508@gmail.com
+
+Thank you for using the Code Editor project!
+
+Happy coding!
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/krishankantkk/Form-Creation-Assignment.git
+```
+
+Go to the project directory
+
+```bash
+  cd my-project
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run start
+```
+
