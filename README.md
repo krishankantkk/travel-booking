@@ -72,7 +72,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 # Travel-booking 
 
 ## Introduction 
-created a travel booking in reactjs and TailwindCSS
+created a travel booking in reactjs and TailwindCSS and used the react leaflet library for use for map visual representation
 
 
 ## Tools
@@ -114,9 +114,6 @@ Happy coding!
 
 Clone the project
 
-```bash
-  git clone https://github.com/krishankantkk/Form-Creation-Assignment.git
-```
 
 Go to the project directory
 
