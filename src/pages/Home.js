@@ -39,24 +39,27 @@ const Home = () => {
   };
 
   return (
-      <div className="flex ">
-        <h1 className="text-3xl text-amber-500 font-bold mb-4">TripAdvisor</h1>
-      <div className="w-1/2">
-        <MapView className="w-1/2 h-4 " />
-        Maps are there
+    <div className="flex gap-5 ">
+      <div className="w-1/2 ">
+      <h1 className="text-3xl text-amber-500 font-bold mb-4">TripAdvisor</h1>
+        <h1 className="text-cyan-500"> Look Into The Maps</h1>
+        <MapView
+          listings={listings}
+        />
+
       </div>
 
-      
-        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2 py-5 gap-4 w-1/2">
-          {listings.map((listing) => (
-            <ListingCard key={listing.id} listing={listing} />
-          ))}
-          <Pagination
-            currentPage={currentPage}
-            totalPages={totalPages}
-            onPageChange={handlePageChange}
-          />
-        </div>
+      <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2 py-5 gap-4 w-1/2">
+        {listings.map((listing) => (
+          <ListingCard key={listing.id} listing={listing} />
+        ))}
+
+        <Pagination
+          currentPage={currentPage}
+          totalPages={totalPages}
+          onPageChange={handlePageChange}
+        />
+      </div>
     </div>
   );
 };
